@@ -43,12 +43,9 @@
 yarn
 # run dev
 yarn dev
-# run prod
-yarn build
-yarn start
+# generate
+yarn export
 ```
-
-This is post-code descriptive text.
 
 <br/>
   
