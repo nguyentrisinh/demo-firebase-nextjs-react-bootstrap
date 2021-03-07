@@ -2,8 +2,6 @@ import React, { useEffect, useState } from 'react'
 import Link from 'next/link'
 import { useRouter } from 'next/router'
 
-import Image from 'next/image'
-
 const Sidebar = (props) => {
   const { asPath } = useRouter()
   const activeRoute = (href) => {
@@ -29,12 +27,7 @@ const Sidebar = (props) => {
           className="simple-text logo-mini"
         >
           <div className="logo-img">
-            <Image
-              src="/logo.png"
-              alt="Picture of the author"
-              width={500}
-              height={500}
-            />
+            <img id="logo" src="/logo.png" alt="logo" />
           </div>
         </a>
         <a

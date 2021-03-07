@@ -18,7 +18,7 @@ const Tables = () => {
     <Row>
       <Col sm={12} className="d-flex">
         <TpCard title="Projects" className="flex-fill">
-          <Table striped hover>
+          <Table striped hover responsive>
             <thead>
               <tr>
                 {thArray.map((prop, key) => {
